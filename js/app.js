@@ -35,3 +35,13 @@ var logMessage = function (message) { return console.log(message); };
 function logError(error) {
     console.error(error);
 }
+var myResult = {
+    playerName: 'Marie',
+    score: 5,
+    problemCount: 5,
+    factor: 7
+};
+var player = {
+    name: 'Daniel',
+    formatName: function () { return 'Dan'; }
+};
