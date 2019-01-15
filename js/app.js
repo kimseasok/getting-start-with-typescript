@@ -1,3 +1,11 @@
+var Player = (function () {
+    function Player() {
+    }
+    Player.prototype.formatName = function () {
+        return this.name.toLocaleUpperCase();
+    };
+    return Player;
+}());
 function startGame() {
     var playerName = getInputValue('playername');
     logPlayer(playerName);
@@ -38,3 +46,4 @@ function logError(error) {
 var firstPlayer = new Player();
 firstPlayer.name = 'Lanier';
 console.log(firstPlayer.formatName());
+//# sourceMappingURL=app.js.map

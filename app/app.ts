@@ -1,3 +1,5 @@
+/// <reference path="player.ts" />
+
 function startGame() {
 
     let playerName: string | undefined = getInputValue('playername');
@@ -16,7 +18,7 @@ function postScore(score: number, playerName: string = 'MultiMath Player'): void
 
     let logger: (value: string) => void;
 
-    if (score < 0 ) {
+    if (score < 0) {
         logger = logError;
     } else {
         logger = logMessage;
