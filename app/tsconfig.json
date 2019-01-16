@@ -3,7 +3,7 @@
     "compilerOptions": {
         "removeComments": true,
         "sourceMap": true,
-        "outFile": "../js/app.js"
+        "module": "commonjs"
     },
 
     "files": [

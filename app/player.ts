@@ -1,10 +1,11 @@
-/// <reference path="./person.ts" />
-class Player implements Person {
-    name: string;
-    age: number;
-    highScore: number;
+import { Person } from './person';
 
-    formatName() {
-        return this.name.toLocaleUpperCase();
+export class Player implements Person {
+        name: string;
+        age: number;
+        highScore: number;
+
+        formatName() {
+            return this.name.toLocaleUpperCase();
+        }
     }
-}
