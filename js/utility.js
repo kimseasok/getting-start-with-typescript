@@ -4,8 +4,9 @@ function getInputValue(elmentId) {
     var inputElement = document.getElementById(elmentId);
     return inputElement.value;
 }
-exports.getInputValue = getInputValue;
+exports.getValue = getInputValue;
 function logger(message) {
     console.log(message);
 }
+exports.logger = logger;
 //# sourceMappingURL=utility.js.map

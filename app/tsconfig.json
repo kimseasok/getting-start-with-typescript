@@ -3,7 +3,9 @@
     "compilerOptions": {
         "removeComments": true,
         "sourceMap": true,
-        "module": "commonjs"
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "traceResolution": true,
     },
 
     "files": [
